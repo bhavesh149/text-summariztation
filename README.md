@@ -44,11 +44,15 @@ Replace the URL with your Ollama API endpoint if different.
 
 Run the application using one of the following commands:
 
-1. To summarize text from a file:
+1. Ensure you have runnig ollama server or start with below command
+```
+  ollama serve
+```
+2. To summarize text from a file:
 ```
   python summarizer.py -t path/to/your/text/file.txt
 ```
-2. To summarize text directly from the command line:
+3. To summarize text directly from the command line:
 ```
   python main.py "Your text to summarize goes here."
 ```
