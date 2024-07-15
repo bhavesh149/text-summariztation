@@ -12,15 +12,15 @@ This command-line application uses the Ollama API to summarize text input or tex
 
 1. Clone the repository:
 ```
-git clone https://github.com/bhavesh149/text-summariztation.git
+  git clone https://github.com/bhavesh149/text-summariztation.git
 ```
 ```
-cd text-summariztation
+  cd text-summariztation
 ```
 
 2. Create a virtual environment (optional but recommended):
 ```
-python -m venv venv
+  python -m venv venv
 ```
 3. Activate the virtual environment:
 - On Windows:
@@ -34,7 +34,7 @@ python -m venv venv
 
 4. Install the required packages:
 ```
-pip install -r requirements.txt
+  pip install -r requirements.txt
 ```
 5. Update a `.env` file in the root directory and add the Ollama API URL(if needed):
 
@@ -46,11 +46,11 @@ Run the application using one of the following commands:
 
 1. To summarize text from a file:
 ```
-python summarizer.py -t path/to/your/text/file.txt
+  python summarizer.py -t path/to/your/text/file.txt
 ```
 2. To summarize text directly from the command line:
 ```
-python main.py "Your text to summarize goes here."
+  python main.py "Your text to summarize goes here."
 ```
 
 ## Troubleshooting
