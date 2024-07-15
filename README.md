@@ -1,23 +1,27 @@
 # Text Summarization CLI
 
-This command-line application uses the Ollama API to summarize text input or text from a file.
+This command-line application uses the Ollama API to summarize text input or text from a file with Qwen2 0.5B model.
 
 ## Prerequisites
 
 - Python 3.6 or higher
 - pip (Python package installer)
+- Ollama
 
 ## Setup
 
 1. Clone the repository:
 ```
-    git clone https://github.com/bhavesh149/text-summariztation.git
+git clone https://github.com/bhavesh149/text-summariztation.git
 ```
 ```
-    cd text-summariztation
+cd text-summariztation
 ```
 
 2. Create a virtual environment (optional but recommended):
+```
+python -m venv venv
+```
 3. Activate the virtual environment:
 - On Windows:
   ```
