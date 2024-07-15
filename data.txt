@@ -1,1 +1,1 @@
-To Kill a Mockingbird
+write a code for pallindrome of a number in c language.
